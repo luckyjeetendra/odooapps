@@ -6,14 +6,7 @@
         Returnable Product Container & Bottles""",
 
     'description': """
-        Module to manage deposit products (product container) for glass bottles and large PET bottles.
-        
-        Examples:
-        Pet Coca Cola 1,5L - € 0,25
-        Bottle Heineken 0,33cl Deposit - € 0,15
-        Crate 12 x 1,5L bottles - € 2,50
-        Crate 24 x 0,33cl bottles - € 2,00
-        Cask beer 50L - € 30,00
+        This module can be used to collect deposit on Cans for water, soft drinks, beer, and other drinks and process refund of deposit against returned empty Cans.
     """,
 
     'author': "JKS",
@@ -23,10 +16,10 @@
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Inventory/Purchase',
-    'version': '15.0',
+    'version': '15.0.2',
 
     # any module necessary for this one to work correctly
-    'depends': ['sale_management', 'purchase', 'account'],
+    'depends': ['sale_management', 'purchase', 'account', 'sale_stock'],
 
     # always loaded
     'data': [
