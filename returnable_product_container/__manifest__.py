@@ -17,6 +17,7 @@
     # for the full list
     'category': 'Inventory/Purchase',
     'version': '15.0.2',
+    'license': 'LGPL-3',
 
     # any module necessary for this one to work correctly
     'depends': ['sale_management', 'purchase', 'account', 'sale_stock'],
